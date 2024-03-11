@@ -1,0 +1,29 @@
+.jogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.portas {
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.botoes button{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    padding: 10px 25px; /*o primeiro (10px) se refera a altura ou seja em cima e em baixo vai ter um espaçamento de 10 px e 25px se refere a largura esquerda e direita*/
+}
